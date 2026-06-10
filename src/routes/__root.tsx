@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Sail Away — Event Planning Concierge" },
+      { name: "twitter:description", content: "Plan beautifully. Sail smoothly. AI-powered event planning assistant for luxurious events." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/630f3e1f-c5cc-4b9c-98aa-00661601e21a/id-preview-c79f9519--ba204316-11c2-4eda-a851-6315ff3a04a0.lovable.app-1781093500720.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/630f3e1f-c5cc-4b9c-98aa-00661601e21a/id-preview-c79f9519--ba204316-11c2-4eda-a851-6315ff3a04a0.lovable.app-1781093500720.png" },
     ],
     links: [
       {
