@@ -59,7 +59,8 @@ function ChatMessage({ message }: { message: UIMessage }) {
 }
 
 export function Chatbot() {
-  const { messages, sendMessage, status, input, setInput } = useChat({
+  const [input, setInput] = useState("");
+  const { messages, sendMessage, status } = useChat({
     transport,
   });
 
